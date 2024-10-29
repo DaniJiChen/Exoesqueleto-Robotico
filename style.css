@@ -1,0 +1,130 @@
+body{
+    font-family: Arial;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 2000px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+main a:visited{
+    color: blue;
+}
+
+header{
+    display: flex;
+    background-color: rgb(26, 26, 96);
+    height: 100px;
+    align-items: center;
+}
+
+header h1 a{
+    margin-left: 75px;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.barraLateral{
+    position: sticky;
+    float: left;
+    height: 71.6vh;
+    width: 200px;
+    padding: 0px 20px;
+    background-color: rgb(163, 193, 224);
+    top: 0px;
+}
+
+.barraLateral ul{
+    margin-top: 140px;
+}
+
+.barraLateral li{
+    margin: 20px;
+}
+
+.barraLateral a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+main{
+    margin-left: 520px ;
+    margin-right: 420px;
+}
+
+main section{
+    margin-bottom: 50px;
+}
+
+main p{
+    margin: 5px 25px;
+    line-height: 1.5;
+}
+
+main h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+#tipos li {
+    line-height: 1.5;
+    margin: 10px;
+}
+
+#queEs div{
+    display: flex; /* Utiliza flexbox para la alineación */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: space-between;
+}
+
+#queEs img{
+    height: 260px;
+    margin: 5px 5px 5px 25px;
+}
+
+#masInfo div{
+    width: fit-content;
+    text-align: center;
+}
+
+#masInfo img{
+    height: 200px;
+    margin-top: -10px;
+}
+
+.comparacionEvo{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comparacionEvo div{
+    text-align: center;
+    width: 33%;
+}
+
+.comparacionEvo div img{
+    width: 340px;
+}
+
+footer{
+    background-color: rgb(26, 26, 96);
+    display: flex;
+    color: white;
+}
+
+footer>div{
+    margin: 10px 250px 30px 80px;
+}
+
+.proyecto>h3{
+    font-size: 30px;
+}
+
+.autor{
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+}
