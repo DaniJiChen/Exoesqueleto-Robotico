@@ -28,7 +28,7 @@ header h1 a{
 .barraLateral{
     position: sticky;
     float: left;
-    height: 71.6vh;
+    height: 61.6vh;
     width: 200px;
     padding: 0px 20px;
     background-color: rgb(163, 193, 224);
@@ -90,7 +90,6 @@ main h2{
 
 #masInfo img{
     height: 200px;
-    margin-top: -10px;
 }
 
 .comparacionEvo{
