@@ -7,6 +7,12 @@ body{
     min-height: 100vh;
 }
 
+@media (max-width: 1599px) {
+    html {
+        zoom: 75%;
+    }
+}
+
 main a:visited{
     color: blue;
 }
